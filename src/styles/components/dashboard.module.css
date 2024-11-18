@@ -1,0 +1,23 @@
+.dashboardTitle {
+  @apply text-3xl sm:text-4xl md:text-5xl lg:text-[64px] xl:text-[64px] flex gap-2;
+}
+
+.dashboardHeading {
+  @apply font-medium;
+}
+
+.dashboardLogo {
+  @apply w-32 sm:w-40 md:w-56 lg:w-56;
+}
+
+.dashboardContainer {
+  @apply flex flex-col bg-[#D9D9D94D] p-2 rounded-lg mt-7 lg:text-[20px] text-[14px] max-w-[600px];
+}
+
+.dashboardDescription {
+  @apply text-[#373052];
+}
+
+.dashboardLink {
+  @apply cursor-pointer text-[#B92B5D];
+}

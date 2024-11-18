@@ -1,0 +1,40 @@
+/* Container for the entire component */
+.container {
+    @apply bg-white mx-auto p-4;
+  }
+  
+  /* Rule Item - for each rule block */
+  .ruleItem {
+    @apply mb-4;
+  }
+  
+  /* Rule Title styling */
+  .ruleTitle {
+    @apply bg-[#F3F3E9] py-2 px-4 sm:px-5 rounded-md font-bold text-gray-800;
+  }
+  
+  /* List styling */
+  .ruleList {
+    @apply list-disc list-inside text-gray-700 p-2 pl-4 sm:pl-6 space-y-2;
+  }
+  
+  /* Styling for parent list item without bullet points */
+  .parentListItem {
+    @apply text-sm sm:text-base font-medium list-none;
+  }
+  
+  /* Sublist styling */
+  .subList {
+    @apply list-disc list-inside pl-5 space-y-1;
+  }
+  
+  /* Sublist item styling */
+  .subListItem {
+    @apply text-sm sm:text-base text-gray-600;
+  }
+  
+  /* Regular list item styling with bullet points */
+  .listItem {
+    @apply text-sm sm:text-base font-medium;
+  }
+  

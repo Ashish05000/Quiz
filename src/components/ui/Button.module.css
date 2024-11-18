@@ -1,0 +1,44 @@
+/* Base button styles */
+.button {
+    @apply rounded-md focus:outline-none transition duration-200;
+  }
+  
+  /* Size variations */
+  .buttonSmall {
+    @apply py-1 px-4 text-sm;
+  }
+  
+  .buttonMedium {
+    @apply py-2 px-6 text-base;
+  }
+  
+  .buttonLarge {
+    @apply py-3 px-8 text-lg;
+  }
+  
+  /* Color variations */
+  .buttonPrimary {
+    @apply bg-[#B92B5D] text-white hover:bg-[#9A1E46];
+  }
+  
+  .buttonSecondary {
+    @apply bg-gray-300 text-gray-700 hover:bg-gray-400;
+  }
+  
+  .buttonDanger {
+    @apply bg-red-500 text-white hover:bg-red-600;
+  }
+  
+  .buttonSuccess {
+    @apply bg-green-500 text-white hover:bg-green-600;
+  }
+  
+  /* Disabled state */
+.buttonDisabled {
+  @apply opacity-50 cursor-not-allowed; /* Disabled styling */
+}
+
+/* Border button style */
+.buttonBorder {
+  @apply border border-[#B92B5D] text-[#B92B5D] bg-transparent hover:bg-[#B92B5D] hover:text-white;
+}

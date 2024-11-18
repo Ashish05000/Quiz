@@ -1,0 +1,42 @@
+/* Modal backdrop */
+.modalBackdrop {
+  @apply fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50;
+}
+
+/* Modal content box */
+.modalContent {
+  @apply bg-white rounded-lg shadow-lg w-11/12 max-w-[95%] sm:max-w-lg md:max-w-xl lg:max-w-2xl p-4;
+  max-height: 90vh; /* Limit height for smaller screens */
+  overflow-y: auto; /* Enable scroll if content overflows */
+}
+
+/* Header */
+.modalHeader {
+  @apply flex justify-between items-center mb-4;
+}
+
+/* Close button */
+.closeButton {
+  @apply text-2xl text-gray-500 hover:text-gray-700 cursor-pointer bg-gray-100 rounded-full w-[33px] h-[33px] flex items-center justify-center;
+}
+
+/* Body */
+.modalBody {
+  @apply mb-4 text-gray-700;
+  max-height: calc(90vh - 80px); /* Adjust for padding and header */
+  overflow-y: auto;
+}
+
+/* Footer */
+.modalFooter {
+  @apply flex justify-end mt-4;
+}
+
+/* Button */
+.button {
+  @apply py-2 px-6 rounded-md font-semibold focus:outline-none;
+}
+
+.buttonSecondary {
+  @apply bg-gray-300 text-gray-700 hover:bg-gray-400;
+}

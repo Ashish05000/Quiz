@@ -1,0 +1,20 @@
+.quizContainer {
+    @apply flex flex-col m-auto justify-start w-full p-8;
+  }
+  
+  .answerFeedback {
+    @apply mt-4 text-center;
+  }
+  
+  .answerFeedback p {
+    @apply text-lg font-bold;
+  }
+  
+  .answerFeedback p.correct {
+    @apply text-green-600;
+  }
+  
+  .answerFeedback p.incorrect {
+    @apply text-red-600;
+  }
+  

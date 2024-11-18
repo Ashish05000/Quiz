@@ -1,0 +1,12 @@
+.label {
+    @apply text-sm md:text-base font-medium text-gray-700 mb-2 block;
+  }
+  
+  .input {
+    @apply w-full px-4 py-2 border border-[#D9D9D9] rounded-md focus:outline-none focus:ring-1 focus:ring-[#B92B5D] focus:border-[#B92B5D] bg-[#F3F3E9];
+  }
+  
+  .inputContainer {
+    @apply mb-4;
+  }
+  
